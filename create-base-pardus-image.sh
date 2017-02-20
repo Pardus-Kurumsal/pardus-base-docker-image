@@ -11,7 +11,7 @@ if ! [ $(id -u) = 0 ]; then
     exit 127
 fi
 
-PARDUS_REPO_URL=http://161.9.194.187:33333/pardus
+PARDUS_REPO_URL=http://161.9.194.174:33333/pardus
 SUITE="pardus-devel"
 TARGET=$(mktemp -d "pardus.base.XXXXXX")
 
